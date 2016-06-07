@@ -1,0 +1,4 @@
+// sublime text to bind macro
+[
+	{"keys": ["control+."],"command": "run_macro_file", "args": {"file":"Packages/User/Jq.sublime-macro"}}
+]
