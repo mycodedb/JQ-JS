@@ -23,4 +23,10 @@ javascript:(function(){$("#showing-count").text("");$("h3.movieTitle").each(func
 //jQuerify
 javascript:var%20s=document.createElement('script');s.setAttribute('src',%20'http://code.jquery.com/jquery.js');document.getElementsByTagName('body')[0].appendChild(s);alert('thank%20you%20for%20using%20jquery!');void(s);
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// link to trailert 
+// movie fone
+$('.movie-title').each(function() {
+$(this).attr('href',('https://www.youtube.com/results?search_query=' + $(this).text() + ' Trailer'))
+});
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
