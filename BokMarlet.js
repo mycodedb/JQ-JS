@@ -37,3 +37,7 @@ $('div .popoverTrigger').each(function () {
 })
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//dvd sreleasedates >>>>> Must add JQ
+$('a:nth-child(3)').each(function() {
+$(this).attr('href',('https://www.youtube.com/results?search_query=' + $(this).text() + ' Trailer'))
+});
