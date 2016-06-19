@@ -1,4 +1,54 @@
-// sublime text to bind macro
+----------------------------------------  sublime text to bind macro
 [
 	{"keys": ["control+."],"command": "run_macro_file", "args": {"file":"Packages/User/Jq.sublime-macro"}}
 ]
+---------------------------------------- Jquray .each snippit
+
+\$('${1:\$#}').each(function(){
+	\$(${2:this}).text();
+	${3}
+
+---------------------------------------- macro val
+[
+	{
+		"args":
+		{
+			"characters": "$"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "($0)"
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"contents": "'$0'"
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args": null,
+		"command": "paste"
+	},
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": ".val()"
+		},
+		"command": "insert"
+	},
+]
+----------------------------------------
