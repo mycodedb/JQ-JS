@@ -41,3 +41,8 @@ $('div .popoverTrigger').each(function () {
 $('a:nth-child(3)').each(function() {
 $(this).attr('href',('https://www.youtube.com/results?search_query=' + $(this).text() + ' Trailer'))
 });
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 9xbuddy
+
+javascript:(function(){$(document).ready(function(){$(".download-get-size").trigger("click");});})();
