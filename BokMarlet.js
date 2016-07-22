@@ -43,6 +43,6 @@ $(this).attr('href',('https://www.youtube.com/results?search_query=' + $(this).t
 });
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// 9xbuddy
+// 9x buddy
 
 javascript:(function(){$(document).ready(function(){$(".download-get-size").trigger("click");});})();
