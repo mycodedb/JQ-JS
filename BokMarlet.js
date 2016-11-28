@@ -46,3 +46,5 @@ $(this).attr('href',('https://www.youtube.com/results?search_query=' + $(this).t
 // 9x buddy
 
 javascript:(function(){$(document).ready(function(){$(".download-get-size").trigger("click");});})();
+// ShowChannles rarbg
+document.getElementById("mediainfo_container").style.display = ""
