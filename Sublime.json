@@ -2,11 +2,6 @@
 [
 	{"keys": ["control+."],"command": "run_macro_file", "args": {"file":"Packages/User/Jq.sublime-macro"}}
 ]
----------------------------------------- Jquray .each snippit
-
-\$('${1:\$#}').each(function(){
-	\$(${2:this}).text();
-	${3}
 
 ---------------------------------------- macro val = ctrl+.
 [
