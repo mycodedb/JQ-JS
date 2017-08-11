@@ -36,6 +36,10 @@ $('div .popoverTrigger').each(function () {
 	$(this).attr('href',('https://www.youtube.com/results?search_query=' + z + ' Trailer' ))
 })
 
+
+// Rotten link correct v2
+javascript:(function(){$('.movieTitle').each(function(){$(this).parent('a').attr('href',('https://www.youtube.com/results?search_query='+$(this).text()+'%20Trailer'))});})();
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //dvd sreleasedates >>>>> Must add JQ
 $('a:nth-child(3)').each(function() {
